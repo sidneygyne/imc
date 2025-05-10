@@ -42,13 +42,13 @@ const Calculadora = () => {
                     <label htmlFor="">Altura</label>
                     <input onChange={(e) => setAltura(parseFloat(e.target.value))}
                         type="number"
-                        placeholder="Altura em (m) " />
+                        placeholder="Altura em (m), ex: 1,80" />
                 </div>
                 <div className={styles.calculatorItem}>
                     <label htmlFor="">Peso</label>
                     <input onChange={(e) => setPeso(parseFloat(e.target.value))}
                         type="number"
-                        placeholder="Peso em (kg)" />
+                        placeholder="Peso em (kg), ex: 75,50" />
                 </div>
             </form>
 
